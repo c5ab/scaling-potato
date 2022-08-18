@@ -29,7 +29,7 @@ function onError(error){
     infoText.classList.add('error')
 }
 function requestApi(city){
- api = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=ec01cf0a3b7a4c4102a95a585026bc73`
+ api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=ec01cf0a3b7a4c4102a95a585026bc73`
 fetchData()
 }
 function fetchData(){
